@@ -9,7 +9,7 @@ r = RandomWords()
 # Return a single random word
 word = r.get_random_word()
 # Return list of Random words
-words = r.get_random_words()
+words = r.get_random_words(), "\n"
 # Return Word of the day
 word_of_the_day = r.word_of_the_day()
 #while True:
